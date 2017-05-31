@@ -28,3 +28,12 @@
     width: 30vw;
     margin: 0 auto;
 }
+
+#subtitle {
+    color: #7d97ad;
+}
+
+.divider {
+    color: #2d3c49;
+    border-width: 5px;
+}
