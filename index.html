@@ -2,28 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Yasin Shuman</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
-    <script src="https://npmcdn.com/bootstrap@4.0.0-alpha.5/dist/js/bootstrap.min.js"></script>
-    <script src="js/bootstrap.js"></script>
 </head>
 <body>
 <div class="container-fluid">
     
     <header class="row">
         <div id="avi" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-            <img src="images_src/ilthyprofile.jpg" alt="ilthy logo">
+            <img class="img-fluid" src="images_src/ilthyprofile.jpg" alt="ilthy logo">
         </div>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 name-role text-right">
             <h1 id="name">Yasin Shuman</h1>
             <h4 id="role">Front End Developer</h4>
         </div>
     </header>
-    <hr class="divider">
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <hr class="divider">
+        </div>
+    </div>
 
     <section class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -35,33 +36,47 @@
 
     <section class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h1 id="subtitle">Featured Work</h1>
+            <h id="subtitle">Featured Work</h>
         </div>
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        <div class="col-md-4 col-lg-4">
             <figure>
-            <img class="images" src="http://lorempixel.com/400/200" alt="test image">
-                <figcaption class="sample-caption">Appify</figcaption>
-                <a href="#" class="sample-link">Coming Soon</a>
+                <img class="images img-fluid" src="http://lorempixel.com/400/200" alt="test image">
+                <figcaption class="sample-caption">Appify
+                    <p>
+                        <a href="#" class="sample-link">Coming Soon</a>
+                    </p>
+                </figcaption>
             </figure>
         </div>
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        <div class="col-md-4 col-lg-4">
             <figure>
-                <img class="images" src="http://lorempixel.com/400/200" alt="test image">
-                <figcaption class="sample-caption">Sunflower</figcaption>
-                <a href="#" class="sample-link">Coming Soon</a>
+                <img class="images img-fluid" src="http://lorempixel.com/400/200" alt="test image">
+                <figcaption class="sample-caption">Sunflower
+                    <p>
+                        <a href="#" class="sample-link">Coming Soon</a>
+                    </p>
+                </figcaption>
             </figure>
         </div>
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        <div class="col-md-4 col-lg-4">
             <figure>
-                <img class="images" src="http://lorempixel.com/400/200" alt="test image">
-                <figcaption class="sample-caption">Bokeh</figcaption>
-                <a href="#" class="sample-link">Coming Soon</a>
+                <img class="images img-fluid" src="http://lorempixel.com/400/200" alt="test image">
+                <figcaption class="sample-caption">Bokeh
+                    <p>
+                    <a href="#" class="sample-link">Coming Soon</a>
+                    </p>
+                </figcaption>
+
             </figure>
         </div>
     </section>
 </div>
-</body>
 <footer>
-    <p class="footer">Made with <span style="color: red">&hearts;</span> in San Francisco</p>
+    <p class="footer">Made with <span id="heart">&hearts;</span> in San Francisco</p>
 </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+<script src="https://npmcdn.com/bootstrap@4.0.0-alpha.5/dist/js/bootstrap.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
 </html>
